@@ -24,7 +24,7 @@ h2{
     font-size: 2.15rem;
     font-weight: 900;
     color: black;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 h5{
@@ -53,6 +53,7 @@ p{
     letter-spacing: .1rem;
     padding: .8rem 1.8rem ;
     border: none;
+    margin-bottom: 8%;
     
 }
 .flex-box{
@@ -85,7 +86,7 @@ p{
 .inner{
     width:80%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0% auto;
     color: white;
 
 }  
@@ -171,7 +172,7 @@ h2{
     position: relative;
     .empty-box{
         width: 80%;
-        height: 40%;
+        height: 60%;
         background-color: $dark-grey;
         position: absolute;
         top:-.1rem;
@@ -204,17 +205,6 @@ h2{
         width: 100%;
         height: 50rem;
         background-position: 50% 50%;
-    
-    }
-
-}
-.sec-3 .boxx{
-    width: 30%;
-    height: 30%;
-    margin: 1%;
-    img{
-        width: 100%;
-        height: 100%;
     
     }
 
@@ -309,16 +299,16 @@ footer{
         width: 50%;
         h2{
             color: white;
-            margin: 2rem 0;
+            margin: 1% 0;
         }
         p{
             color: white;
-            margin: 2rem 0;
+            margin: 2% 0;
             font-size: 1.2rem;
 
         }
         .sec-5{
-            margin: 3rem 0;
+            margin: 20% 0;
             .fab{
                 font-size: 2rem;
                 margin-left: .8rem;
@@ -358,15 +348,7 @@ footer{
 @media only screen and (max-width: 850px ){
 // ------------------------- section-1 starts here ----------------
 .section-1{
-    .inner{
-        
 
-    
-
-    
-    .box-1{
-       
-    }
     .box-2{
         width: 50%;
         img{
@@ -380,7 +362,7 @@ footer{
 
 // ------------------------- section-1 ends here -----------------
 
-}
+
 // ------------------------- footer ends here -----------------
 // -----------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------
@@ -464,6 +446,7 @@ footer{
     
 
 .section-2{
+    text-align: center;
     .box{
         width: 50%
     }
@@ -473,12 +456,31 @@ footer{
 // ------------------------- section-3 starts here ----------------
 
 }
-.sec-3 .box{
+
+.sec-3 {
+
+    .box{
     width: 30%;
     height: 15rem;
     margin: .5rem;
     overflow: hidden;
+    
+}
 
+}
+
+.boxx{
+    display: none;
+    background-color: red;
+}
+
+footer{
+    .inner{
+
+        .empty-box{
+            display: hidden;
+        }
+    }
 }
 
 
@@ -571,6 +573,7 @@ footer{
         
     }
     .boxx {
+        display: none;
         width: 80%;
         height: 25rem;
         margin: .5rem;
@@ -607,10 +610,7 @@ footer{
 footer{
     background-color: $dark-grey;
     .empty-box{
-        width: 50%;
-        height: 100%;
-        top:0rem;
-        left:25%;
+        display: none;
     }
 
     .left{

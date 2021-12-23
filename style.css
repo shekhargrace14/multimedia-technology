@@ -14,7 +14,7 @@ h2 {
   font-size: 2.15rem;
   font-weight: 900;
   color: black;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 h5 {
@@ -45,6 +45,7 @@ p {
   letter-spacing: .1rem;
   padding: .8rem 1.8rem;
   border: none;
+  margin-bottom: 8%;
 }
 
 .flex-box {
@@ -83,7 +84,7 @@ p {
 .inner {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0% auto;
   color: white;
 }
 
@@ -168,7 +169,7 @@ h2 {
 
 .section-3 .empty-box {
   width: 80%;
-  height: 40%;
+  height: 60%;
   background-color: #292d33;
   position: absolute;
   top: -.1rem;
@@ -204,17 +205,6 @@ h2 {
   width: 100%;
   height: 50rem;
   background-position: 50% 50%;
-}
-
-.sec-3 .boxx {
-  width: 30%;
-  height: 30%;
-  margin: 1%;
-}
-
-.sec-3 .boxx img {
-  width: 100%;
-  height: 100%;
 }
 
 .section-4 {
@@ -307,17 +297,17 @@ footer .left {
 
 footer .left h2 {
   color: white;
-  margin: 2rem 0;
+  margin: 1% 0;
 }
 
 footer .left p {
   color: white;
-  margin: 2rem 0;
+  margin: 2% 0;
   font-size: 1.2rem;
 }
 
 footer .left .sec-5 {
-  margin: 3rem 0;
+  margin: 20% 0;
 }
 
 footer .left .sec-5 .fab {
@@ -345,10 +335,10 @@ footer .right .btn-primary {
 }
 
 @media only screen and (max-width: 850px) {
-  .section-1 .inner .box-2 {
+  .section-1 .box-2 {
     width: 50%;
   }
-  .section-1 .inner .box-2 img {
+  .section-1 .box-2 img {
     width: 100%;
   }
 }
@@ -381,6 +371,9 @@ footer .right .btn-primary {
   .section-1 .inner .box-2 img {
     width: 100%;
   }
+  .section-2 {
+    text-align: center;
+  }
   .section-2 .box {
     width: 50%;
   }
@@ -391,6 +384,15 @@ footer .right .btn-primary {
   height: 15rem;
   margin: .5rem;
   overflow: hidden;
+}
+
+.boxx {
+  display: none;
+  background-color: red;
+}
+
+footer .inner .empty-box {
+  display: hidden;
 }
 
 @media only screen and (max-width: 612px) {
@@ -437,6 +439,7 @@ footer .right .btn-primary {
     margin: 1rem auto;
   }
   .sec-3 .boxx {
+    display: none;
     width: 80%;
     height: 25rem;
     margin: .5rem;
@@ -462,10 +465,7 @@ footer .right .btn-primary {
     background-color: #292d33;
   }
   footer .empty-box {
-    width: 50%;
-    height: 100%;
-    top: 0rem;
-    left: 25%;
+    display: none;
   }
   footer .left {
     width: 80%;
